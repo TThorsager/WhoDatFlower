@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB6D81F6B77BB3FEB6ABCE6 /* Pods_WhoDatFlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E7266B4FC0DC44C510C91 /* Pods_WhoDatFlower.framework */; };
 		5D2A462F223278A000E7ED2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A462E223278A000E7ED2D /* AppDelegate.swift */; };
-		5D2A4631223278A000E7ED2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A4630223278A000E7ED2D /* ViewController.swift */; };
+		5D2A4631223278A000E7ED2D /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A4630223278A000E7ED2D /* ImagePickerViewController.swift */; };
 		5D2A4634223278A000E7ED2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A4632223278A000E7ED2D /* Main.storyboard */; };
-		5D2A4636223278A200E7ED2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A4635223278A200E7ED2D /* Assets.xcassets */; };
 		5D2A4639223278A200E7ED2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A4637223278A200E7ED2D /* LaunchScreen.storyboard */; };
+		5D2A464322327E1A00E7ED2D /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A464222327E1A00E7ED2D /* FlowerClassifier.mlmodel */; };
+		5D6C19B82265C1FF0092A8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6C19B72265C1FF0092A8EB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		018E7266B4FC0DC44C510C91 /* Pods_WhoDatFlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoDatFlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2A462B223278A000E7ED2D /* WhoDatFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoDatFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2A462E223278A000E7ED2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D2A4630223278A000E7ED2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D2A4630223278A000E7ED2D /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		5D2A4633223278A000E7ED2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D2A4635223278A200E7ED2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2A4638223278A200E7ED2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2A463A223278A200E7ED2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2A464222327E1A00E7ED2D /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		5D6C19B72265C1FF0092A8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A652F315777CFCD245A4AD20 /* Pods-WhoDatFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoDatFlower.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhoDatFlower/Pods-WhoDatFlower.release.xcconfig"; sourceTree = "<group>"; };
+		D2B70DACBC615377FE40118B /* Pods-WhoDatFlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoDatFlower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhoDatFlower/Pods-WhoDatFlower.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB6D81F6B77BB3FEB6ABCE6 /* Pods_WhoDatFlower.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C933999F74A6444908ADADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018E7266B4FC0DC44C510C91 /* Pods_WhoDatFlower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D2A4622223278A000E7ED2D = {
 			isa = PBXGroup;
 			children = (
 				5D2A462D223278A000E7ED2D /* WhoDatFlower */,
 				5D2A462C223278A000E7ED2D /* Products */,
+				D97FE48F71D8B9283F87989E /* Pods */,
+				0C933999F74A6444908ADADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,23 @@
 			isa = PBXGroup;
 			children = (
 				5D2A462E223278A000E7ED2D /* AppDelegate.swift */,
-				5D2A4630223278A000E7ED2D /* ViewController.swift */,
+				5D2A4630223278A000E7ED2D /* ImagePickerViewController.swift */,
 				5D2A4632223278A000E7ED2D /* Main.storyboard */,
-				5D2A4635223278A200E7ED2D /* Assets.xcassets */,
+				5D6C19B72265C1FF0092A8EB /* Assets.xcassets */,
 				5D2A4637223278A200E7ED2D /* LaunchScreen.storyboard */,
 				5D2A463A223278A200E7ED2D /* Info.plist */,
+				5D2A464222327E1A00E7ED2D /* FlowerClassifier.mlmodel */,
 			);
 			path = WhoDatFlower;
+			sourceTree = "<group>";
+		};
+		D97FE48F71D8B9283F87989E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B70DACBC615377FE40118B /* Pods-WhoDatFlower.debug.xcconfig */,
+				A652F315777CFCD245A4AD20 /* Pods-WhoDatFlower.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D2A463D223278A200E7ED2D /* Build configuration list for PBXNativeTarget "WhoDatFlower" */;
 			buildPhases = (
+				716671E2A06BB972916C778B /* [CP] Check Pods Manifest.lock */,
 				5D2A4627223278A000E7ED2D /* Sources */,
 				5D2A4628223278A000E7ED2D /* Frameworks */,
 				5D2A4629223278A000E7ED2D /* Resources */,
+				CB20810122A792C2C074E0D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +152,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2A4639223278A200E7ED2D /* LaunchScreen.storyboard in Resources */,
-				5D2A4636223278A200E7ED2D /* Assets.xcassets in Resources */,
+				5D6C19B82265C1FF0092A8EB /* Assets.xcassets in Resources */,
 				5D2A4634223278A000E7ED2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		716671E2A06BB972916C778B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhoDatFlower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB20810122A792C2C074E0D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhoDatFlower/Pods-WhoDatFlower-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhoDatFlower/Pods-WhoDatFlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D2A4627223278A000E7ED2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2A4631223278A000E7ED2D /* ViewController.swift in Sources */,
+				5D2A464322327E1A00E7ED2D /* FlowerClassifier.mlmodel in Sources */,
+				5D2A4631223278A000E7ED2D /* ImagePickerViewController.swift in Sources */,
 				5D2A462F223278A000E7ED2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +353,7 @@
 		};
 		5D2A463E223278A200E7ED2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B70DACBC615377FE40118B /* Pods-WhoDatFlower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		5D2A463F223278A200E7ED2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A652F315777CFCD245A4AD20 /* Pods-WhoDatFlower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
